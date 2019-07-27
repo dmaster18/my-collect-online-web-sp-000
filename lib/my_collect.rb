@@ -9,5 +9,5 @@ def my_collect(array)
 end
 
 my_collect(["Bob Jones", "Joe Jackson", "John Williams", "Homer Simpson"]) do |name| 
-  
+  name.split(" ")
 end
