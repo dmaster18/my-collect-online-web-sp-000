@@ -8,6 +8,6 @@ def my_collect(array)
   puts collection
 end
 
-my_collect(["Bob Jones", "Joe Jackson", "John Williams", "Homer Simpson"]) do |name| 
+my_collect(["Bob Jones", "Joe Jackson", "John Williams", "Homer Simpson"]) |name| do  
   first_name = name.split(" ").first
 end
